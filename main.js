@@ -3,13 +3,13 @@
 const inputField = document.getElementById('username');
 const passwordField = document.getElementById('password');
 
-// sla de referentie op naar de warning message.
+// sla de referentie op naar de warning message. // Dus selecteer het element waar het staat.
 const warningField = document.getElementById('form-warning');
 const warningFieldPass = document.getElementById('form-warning-pass');
 
 // voeg eventlisteners toe op de inputvelden.
-inputField.addEventListener('keyup', emailCheck);
-passwordField.addEventListener("keyup", passwordCheck);
+inputField.addEventListener('keyup', emailCheck);// de funtie wordt aangeroepen als er iets gebeurd.
+passwordField.addEventListener("keyup", passwordCheck); // de funtie wordt aangeroepen als er iets gebeurd.
 
 
 // functie voor de gebruikersnaam.
